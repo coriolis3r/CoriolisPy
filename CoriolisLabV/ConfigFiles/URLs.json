@@ -1,0 +1,7 @@
+[
+  {
+    "urlLB" : "https://localhost:44335/api/ProcessData/PostMeterListeningL",
+    "urlMO" : "http://demo.keepener.com/api/MeterOperation",
+    "urlLF" : "http://localhost:26753/api/ListeningFile"
+  }
+]
