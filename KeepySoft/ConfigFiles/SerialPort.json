@@ -1,0 +1,5 @@
+{
+  "Port": "/dev/ttyUSB0",
+  "BaudRate": 9600,
+  "Parity": "Even"
+}

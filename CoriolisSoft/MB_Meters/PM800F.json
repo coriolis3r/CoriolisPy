@@ -1,0 +1,186 @@
+[
+  {
+    "MeasureTypeId": 1,
+    "mbregisters": [
+      {
+        "ParameterID": 1,
+        "MBRegID": 11720,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 2,
+        "MBRegID": 11722,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 3,
+        "MBRegID": 11724,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 4,
+        "MBRegID": 11712,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 5,
+        "MBRegID": 11714,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 6,
+        "MBRegID": 11716,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 7,
+        "MBRegID": 11700,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 8,
+        "MBRegID": 11702,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 9,
+        "MBRegID": 11704,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 10,
+        "MBRegID": 11762,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 13,
+        "MBRegID": 11754,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 14,
+        "MBRegID": 11756,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 15,
+        "MBRegID": 11758,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 16,
+        "MBRegID": 11760,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 17,
+        "MBRegID": 11730,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 18,
+        "MBRegID": 11732,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 19,
+        "MBRegID": 11734,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 20,
+        "MBRegID": 11736,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 21,
+        "MBRegID": 11746,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 22,
+        "MBRegID": 11748,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 23,
+        "MBRegID": 11750,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 24,
+        "MBRegID": 11752,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 25,
+        "MBRegID": 11738,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 26,
+        "MBRegID": 11740,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 27,
+        "MBRegID": 11742,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 28,
+        "MBRegID": 11744,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 32,
+        "MBRegID": 11800,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      },
+      {
+        "ParameterID": 40,
+        "MBRegID": 11802,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      }
+    ]
+  },
+  {
+    "MeasureTypeId": 2,
+    "mbregisters": [
+      {
+        "ParameterID": 32,
+        "MBRegID": 11800,
+        "DataTypeId": 2,
+        "Multiplier": 1
+      }
+    ]
+  }
+]

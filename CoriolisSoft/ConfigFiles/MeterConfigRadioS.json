@@ -1,0 +1,86 @@
+[
+  {
+    "DeviceIdGuid": "5360F440-E660-4385-8g",
+    "MeterId": 1,
+    "ComTypeId": 0,
+    "NCPU": 32,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 5,
+      "ModelName": "Elnet PQ",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 2,
+          "SampleTime": 5,
+          "Calculated": true,
+          "Range": "79,80"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "5360F440-E660-4385-8e",
+    "MeterId": 1,
+    "ComTypeId": 0,
+    "NCPU": 31,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 2,
+          "SampleTime": 5,
+          "Calculated": true,
+          "Range": "79,80"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "5360F440-E660-4385-8h",
+    "MeterId": 3,
+    "ComTypeId": 0,
+    "NCPU": 29,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 12,
+      "ModelName": "SFN-9S5-3E",
+      "MBFunctionId": 3,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "57,108;129,144"
+        },
+        {
+          "MeasurTypeId": 2,
+          "SampleTime": 5,
+          "Calculated": true,
+          "Range": "129,130"
+        }
+      ]
+    }
+  }
+]

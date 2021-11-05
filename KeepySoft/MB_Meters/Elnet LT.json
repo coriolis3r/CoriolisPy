@@ -1,0 +1,1426 @@
+[
+  {
+    "model": "Elnet LT",
+    "mbList": [
+      {
+        "MeasureTypeId": 1,
+        "mbregisters": [
+          {
+            "ParameterID": 1,
+            "MBRegID": 1,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 2,
+            "MBRegID": 3,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 3,
+            "MBRegID": 5,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 4,
+            "MBRegID": 7,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 5,
+            "MBRegID": 9,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 6,
+            "MBRegID": 11,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 7,
+            "MBRegID": 13,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 8,
+            "MBRegID": 15,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 9,
+            "MBRegID": 17,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 17,
+            "MBRegID": 19,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 18,
+            "MBRegID": 21,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 19,
+            "MBRegID": 23,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 20,
+            "MBRegID": 25,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 21,
+            "MBRegID": 27,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 22,
+            "MBRegID": 29,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 23,
+            "MBRegID": 31,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 24,
+            "MBRegID": 33,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 25,
+            "MBRegID": 35,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 26,
+            "MBRegID": 37,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 27,
+            "MBRegID": 39,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 28,
+            "MBRegID": 41,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 13,
+            "MBRegID": 43,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 14,
+            "MBRegID": 45,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 15,
+            "MBRegID": 47,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 16,
+            "MBRegID": 49,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 10,
+            "MBRegID": 51,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 11,
+            "MBRegID": 53,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 12,
+            "MBRegID": 55,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 32,
+            "MBRegID": 79,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 40,
+            "MBRegID": 81,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 36,
+            "MBRegID": 83,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 41,
+            "MBRegID": 105,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 42,
+            "MBRegID": 107,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 43,
+            "MBRegID": 109,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 44,
+            "MBRegID": 111,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 45,
+            "MBRegID": 113,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 46,
+            "MBRegID": 115,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 29,
+            "MBRegID": 119,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 30,
+            "MBRegID": 121,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 31,
+            "MBRegID": 123,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 37,
+            "MBRegID": 125,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 38,
+            "MBRegID": 127,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 39,
+            "MBRegID": 129,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 33,
+            "MBRegID": 131,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 34,
+            "MBRegID": 133,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 35,
+            "MBRegID": 135,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          }
+        ]
+      },
+      {
+        "MeasureTypeId": 2,
+        "mbregisters": [
+          {
+            "ParameterID": 32,
+            "MBRegID": 79,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          }
+        ]
+      },
+      {
+        "MeasureTypeId": 3,
+        "mbregisters": [
+          {
+            "ParameterID": 47,
+            "MBRegID": 601,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 48,
+            "MBRegID": 603,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 49,
+            "MBRegID": 605,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 50,
+            "MBRegID": 607,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 51,
+            "MBRegID": 609,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 52,
+            "MBRegID": 611,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 53,
+            "MBRegID": 613,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 54,
+            "MBRegID": 615,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 55,
+            "MBRegID": 617,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 56,
+            "MBRegID": 619,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 57,
+            "MBRegID": 621,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 58,
+            "MBRegID": 623,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 59,
+            "MBRegID": 625,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 60,
+            "MBRegID": 627,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 61,
+            "MBRegID": 629,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 62,
+            "MBRegID": 631,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 63,
+            "MBRegID": 633,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 64,
+            "MBRegID": 635,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 65,
+            "MBRegID": 637,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 66,
+            "MBRegID": 639,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 67,
+            "MBRegID": 641,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 68,
+            "MBRegID": 643,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 69,
+            "MBRegID": 645,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 70,
+            "MBRegID": 647,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 71,
+            "MBRegID": 649,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 72,
+            "MBRegID": 651,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 73,
+            "MBRegID": 653,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 74,
+            "MBRegID": 655,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 75,
+            "MBRegID": 657,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 76,
+            "MBRegID": 659,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 77,
+            "MBRegID": 665,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 78,
+            "MBRegID": 667,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 79,
+            "MBRegID": 669,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 80,
+            "MBRegID": 671,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 81,
+            "MBRegID": 673,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 82,
+            "MBRegID": 675,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 83,
+            "MBRegID": 677,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 84,
+            "MBRegID": 679,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 85,
+            "MBRegID": 681,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 86,
+            "MBRegID": 683,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 87,
+            "MBRegID": 685,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 88,
+            "MBRegID": 687,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 89,
+            "MBRegID": 689,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 90,
+            "MBRegID": 691,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 91,
+            "MBRegID": 693,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 92,
+            "MBRegID": 695,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 93,
+            "MBRegID": 697,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 94,
+            "MBRegID": 699,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 95,
+            "MBRegID": 701,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 96,
+            "MBRegID": 703,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 97,
+            "MBRegID": 705,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 98,
+            "MBRegID": 707,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 99,
+            "MBRegID": 709,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 100,
+            "MBRegID": 711,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 101,
+            "MBRegID": 713,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 102,
+            "MBRegID": 715,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 103,
+            "MBRegID": 717,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 104,
+            "MBRegID": 719,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 105,
+            "MBRegID": 721,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 106,
+            "MBRegID": 723,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 107,
+            "MBRegID": 729,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 108,
+            "MBRegID": 731,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 109,
+            "MBRegID": 733,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 110,
+            "MBRegID": 735,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 111,
+            "MBRegID": 737,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 112,
+            "MBRegID": 739,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 113,
+            "MBRegID": 741,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 114,
+            "MBRegID": 743,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 115,
+            "MBRegID": 745,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 116,
+            "MBRegID": 747,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 117,
+            "MBRegID": 749,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 118,
+            "MBRegID": 751,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 119,
+            "MBRegID": 753,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 120,
+            "MBRegID": 755,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 121,
+            "MBRegID": 757,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 122,
+            "MBRegID": 759,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 123,
+            "MBRegID": 761,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 124,
+            "MBRegID": 763,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 125,
+            "MBRegID": 765,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 126,
+            "MBRegID": 767,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 127,
+            "MBRegID": 769,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 128,
+            "MBRegID": 771,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 129,
+            "MBRegID": 773,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 130,
+            "MBRegID": 775,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 131,
+            "MBRegID": 777,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 132,
+            "MBRegID": 779,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 133,
+            "MBRegID": 781,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 134,
+            "MBRegID": 783,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 135,
+            "MBRegID": 785,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 136,
+            "MBRegID": 787,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 137,
+            "MBRegID": 793,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 138,
+            "MBRegID": 795,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 139,
+            "MBRegID": 797,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 140,
+            "MBRegID": 799,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 141,
+            "MBRegID": 801,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 142,
+            "MBRegID": 803,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 143,
+            "MBRegID": 805,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 144,
+            "MBRegID": 807,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 145,
+            "MBRegID": 809,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 146,
+            "MBRegID": 811,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 147,
+            "MBRegID": 813,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 148,
+            "MBRegID": 815,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 149,
+            "MBRegID": 817,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 150,
+            "MBRegID": 819,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 151,
+            "MBRegID": 821,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 152,
+            "MBRegID": 823,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 153,
+            "MBRegID": 825,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 154,
+            "MBRegID": 827,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 155,
+            "MBRegID": 829,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 156,
+            "MBRegID": 831,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 157,
+            "MBRegID": 833,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 158,
+            "MBRegID": 835,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 159,
+            "MBRegID": 837,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 160,
+            "MBRegID": 839,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 161,
+            "MBRegID": 841,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 162,
+            "MBRegID": 843,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 163,
+            "MBRegID": 845,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 164,
+            "MBRegID": 847,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 165,
+            "MBRegID": 849,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 166,
+            "MBRegID": 851,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 167,
+            "MBRegID": 857,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 168,
+            "MBRegID": 859,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 169,
+            "MBRegID": 861,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 170,
+            "MBRegID": 863,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 171,
+            "MBRegID": 865,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 172,
+            "MBRegID": 867,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 173,
+            "MBRegID": 869,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 174,
+            "MBRegID": 871,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 175,
+            "MBRegID": 873,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 176,
+            "MBRegID": 875,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 177,
+            "MBRegID": 877,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 178,
+            "MBRegID": 879,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 179,
+            "MBRegID": 881,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 180,
+            "MBRegID": 883,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 181,
+            "MBRegID": 885,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 182,
+            "MBRegID": 887,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 183,
+            "MBRegID": 889,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 184,
+            "MBRegID": 891,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 185,
+            "MBRegID": 893,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 186,
+            "MBRegID": 895,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 187,
+            "MBRegID": 897,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 188,
+            "MBRegID": 899,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 189,
+            "MBRegID": 901,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 190,
+            "MBRegID": 903,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 191,
+            "MBRegID": 905,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 192,
+            "MBRegID": 907,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 193,
+            "MBRegID": 909,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 194,
+            "MBRegID": 911,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 195,
+            "MBRegID": 913,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 196,
+            "MBRegID": 915,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 197,
+            "MBRegID": 921,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 198,
+            "MBRegID": 923,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 199,
+            "MBRegID": 925,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 200,
+            "MBRegID": 927,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 201,
+            "MBRegID": 929,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 202,
+            "MBRegID": 931,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 203,
+            "MBRegID": 933,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 204,
+            "MBRegID": 935,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 205,
+            "MBRegID": 937,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 206,
+            "MBRegID": 939,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 207,
+            "MBRegID": 941,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 208,
+            "MBRegID": 943,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 209,
+            "MBRegID": 945,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 210,
+            "MBRegID": 947,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 211,
+            "MBRegID": 949,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 212,
+            "MBRegID": 951,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 213,
+            "MBRegID": 953,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 214,
+            "MBRegID": 955,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 215,
+            "MBRegID": 957,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 216,
+            "MBRegID": 959,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 217,
+            "MBRegID": 961,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 218,
+            "MBRegID": 963,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 219,
+            "MBRegID": 965,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 220,
+            "MBRegID": 967,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 221,
+            "MBRegID": 969,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 222,
+            "MBRegID": 971,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 223,
+            "MBRegID": 973,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 224,
+            "MBRegID": 975,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 225,
+            "MBRegID": 977,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 226,
+            "MBRegID": 979,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 227,
+            "MBRegID": 201,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 228,
+            "MBRegID": 205,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 229,
+            "MBRegID": 219,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 230,
+            "MBRegID": 227,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 231,
+            "MBRegID": 155,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 232,
+            "MBRegID": 157,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          },
+          {
+            "ParameterID": 233,
+            "MBRegID": 159,
+            "DataTypeId": 2,
+            "Multiplier": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "model": "SFN-9SY-3E",
+    "mbList": [
+      {
+        "MeasureTypeId": 1,
+        "mbregisters": [
+          {
+            "ParameterID": 1,
+            "MBRegID": 57,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 2,
+            "MBRegID": 59,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 3,
+            "MBRegID": 61,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 4,
+            "MBRegID": 63,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 5,
+            "MBRegID": 65,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 6,
+            "MBRegID": 67,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 7,
+            "MBRegID": 69,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 8,
+            "MBRegID": 71,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 9,
+            "MBRegID": 73,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 10,
+            "MBRegID": 107,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 13,
+            "MBRegID": 99,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 14,
+            "MBRegID": 101,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 15,
+            "MBRegID": 103,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 16,
+            "MBRegID": 105,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 17,
+            "MBRegID": 75,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 18,
+            "MBRegID": 77,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 19,
+            "MBRegID": 79,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 20,
+            "MBRegID": 81,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 21,
+            "MBRegID": 91,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 22,
+            "MBRegID": 92,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 23,
+            "MBRegID": 95,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 24,
+            "MBRegID": 97,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 25,
+            "MBRegID": 83,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 26,
+            "MBRegID": 85,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 27,
+            "MBRegID": 87,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 28,
+            "MBRegID": 89,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 32,
+            "MBRegID": 129,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          },
+          {
+            "ParameterID": 40,
+            "MBRegID": 133,
+            "DataTypeId": 2,
+            "Multiplier": 1.0
+          }
+        ]
+      }
+    ]
+  }
+]

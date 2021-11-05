@@ -1,0 +1,65 @@
+[
+  {
+    "MeterId": 1,
+    "ComTypeId": 0,
+    "NCPU": 1,
+    "IPAddress": "192.168.137.110",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "SFN-9SY-3E",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 1,
+          "Calculated": false,
+          "Range": "57,108;129,134"
+        }
+      ]
+    }
+  },
+  {
+    "MeterId": 2,
+    "ComTypeId": 0,
+    "NCPU": 1,
+    "IPAddress": "192.168.137.110",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "SFN-9SY-3E",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 1,
+          "Calculated": false,
+          "Range": "57,108;129,134"
+        }
+      ]
+    }
+  },
+  {
+    "MeterId": 3,
+    "ComTypeId": 0,
+    "NCPU": 1,
+    "IPAddress": "192.168.137.110",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "SFN-9SY-3E",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 1,
+          "Calculated": false,
+          "Range": "57,108;129,134"
+        }
+      ]
+    }
+  }
+]

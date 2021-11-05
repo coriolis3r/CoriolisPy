@@ -1,0 +1,18 @@
+[
+  {
+    "model": "ESMxx50",
+    "mbList": [
+      {
+        "MeasureTypeId": 1,
+        "mbregisters": [
+          {
+            "ParameterID": 1,
+            "MBRegID": 0,
+            "DataTypeId": 1,
+            "Multiplier": 1
+          }
+        ]
+      }
+    ]
+  }
+]

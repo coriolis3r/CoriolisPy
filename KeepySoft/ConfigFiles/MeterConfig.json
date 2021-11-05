@@ -1,0 +1,226 @@
+[
+  {
+    "DeviceIdGuid": "CAAB5750-F828-4575-9",
+    "MeterId": 1,
+    "ComTypeId": 0,
+    "NCPU": 31,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "5CDAC81E-6515-4585-9",
+    "MeterId": 2,
+    "ComTypeId": 0,
+    "NCPU": 32,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "4985AB81-8C5A-4A2F-9",
+    "MeterId": 3,
+    "ComTypeId": 0,
+    "NCPU": 33,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "7ED19411-0014-470B-B",
+    "MeterId": 4,
+    "ComTypeId": 0,
+    "NCPU": 34,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "4716E97E-FA35-4F46-9",
+    "MeterId": 5,
+    "ComTypeId": 0,
+    "NCPU": 35,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "BF11F59C-D262-4B84-A",
+    "MeterId": 6,
+    "ComTypeId": 0,
+    "NCPU": 36,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "6EF69531-1AF1-422D-9",
+    "MeterId": 7,
+    "ComTypeId": 0,
+    "NCPU": 37,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  },
+  {
+    "DeviceIdGuid": "8742F9BF-2213-4F14-A",
+    "MeterId": 8,
+    "ComTypeId": 0,
+    "NCPU": 38,
+    "IPAddress": "",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 5,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  }
+]
