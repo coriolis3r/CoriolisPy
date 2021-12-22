@@ -106,10 +106,10 @@ class ReadData(object):
 
                     if ArrLV:
                         if len(ArrLV) > 0:
-                            MetList["ListeningId"] = str(uuid.uuid4())
+                            MetList["ListeningID"] = str(uuid.uuid4())
                             MetList["MeterSerial"] = mc["DeviceIdGuid"]
                             MetList["ListeningDate"] = str(self.dt)
-                            MetList["listeningvalues"] = ArrLV
+                            MetList["listeningValue"] = ArrLV
                             dataReaded.append(MetList)
 
                 if client is not None:
@@ -186,7 +186,7 @@ class ReadData(object):
 
                     if ArrLV:
                         if len(ArrLV) > 0:
-                            MetList["ListeningId"] = str(uuid.uuid4())
+                            MetList["ListeningID"] = str(uuid.uuid4())
                             MetList["MeterSerial"] = mc["DeviceIdGuid"]
                             MetList["ListeningDate"] = str(self.dt)
                             MetList["ListeningValue"] = ArrLV

@@ -1,20 +1,19 @@
 import ftplib
 
-#import os
-#os.system('sudo reboot now')
-
 try:
-    filename= "elemsa.txt"
+    filename= "NetworkConfig.conf"
 
-    ftp= ftplib.FTP('ftp.smarterasp.net')
-    ftp.login('keepener-001', 'Admin.15zz,')
+    ftp= ftplib.FTP('win5146.site4now.net')
+    ftp.login('keepener-001', 'Keepener.15zz,')
     ftp.cwd('/site12/ftpTest/')
 
-    ftp.retrbinary("RETR " + filename, open(filename, 'wb').write)
+    #ftp.retrbinary("RETR " + filename, open(filename, 'wb').write)
 
-    uploadfile= open('C:/Users/RENE/Documents/RRRFiles/prueba.txt', 'rb')
+    uploadfile= open('/etc/wpa_supplicant/wpa_supplicant.conf', 'rb')
 
-    ftp.storlines('STOR ' + filename, uploadfile)
+    ftp.storbinary('STOR ' + filename, uploadfile)
+
+    ftp.delete("elemsa.txt")
 
 except Exception as e:
     print(e)
