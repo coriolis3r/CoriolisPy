@@ -297,6 +297,20 @@ class DataF():
                                 MBList.append(lv)
                                 index = index + 8
                                 i = i + 8
+                            elif l["DataTypeId"] == 13:  # uint
+                                tup = (MBDataRegs[i+1], MBDataRegs[i])
+                                lv["Index"] = l["ParameterID"]
+                                lv["Value"] = unpack('>I', pack('>HH', tup[0], tup[1]))[0] * l["Multiplier"]
+                                MBList.append(lv)
+                                index = index + 2
+                                i = i + 2
+                            elif l["DataTypeId"] == 11:  # int
+                                tup = (MBDataRegs[i+1], MBDataRegs[i])
+                                lv["Index"] = l["ParameterID"]
+                                lv["Value"] = unpack('>i', pack('>HH', tup[0], tup[1]))[0] * l["Multiplier"]
+                                MBList.append(lv)
+                                index = index + 2
+                                i = i + 2
                         else:
                             index = index + 1
                             i = i + 1

@@ -1,5 +1,7 @@
 import ftplib
 
+#import os
+#os.system('sudo reboot now')
 
 try:
     filename= "elemsa.txt"
