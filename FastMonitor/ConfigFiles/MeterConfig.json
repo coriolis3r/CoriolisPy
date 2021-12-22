@@ -1,0 +1,30 @@
+[
+  {
+    "DeviceIdGuid": "CAAD5750-F828-4575-9",
+    "MeterId": 1,
+    "ComTypeId": 1,
+    "NCPU": 31,
+    "IPAddress": "192.168.137.37",
+    "ConStatus": true,
+    "Models": {
+      "ModelId": 1,
+      "ModelName": "Elnet LT",
+      "MBFunctionId": 4,
+      "MeterTypeId": 1,
+      "MeasurRange": [
+        {
+          "MeasurTypeId": 1,
+          "SampleTime": 1,
+          "Calculated": false,
+          "Range": "1,56;79,136"
+        },
+        {
+          "MeasurTypeId": 3,
+          "SampleTime": 1,
+          "Calculated": false,
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "urlLB" : "http://cp.keepener.com/api/ListeningBulk",
+    "urlMO" : "http://cp.keepener.com/api/MeterOperation",
+    "urlLF" : "http://cp.keepener.com/api/ListeningFile"
+  }
+]
