@@ -10,7 +10,6 @@ from numpy import asarray
 from numpy import save
 from numpy import load
 
-
 class DataProcessCloud(object):
 
     def ReadAllMeters(self, SerialPort, MeterConfig, JsonMeters):
