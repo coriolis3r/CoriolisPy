@@ -2,6 +2,7 @@ import logging
 from datetime import datetime
 import json
 import mysql.connector
+import numpy as np
 
 
 def MainWork(mainPath):
@@ -41,7 +42,7 @@ def GetData():
         cursor = db.cursor()
 
         query = "insert into meterlistening (ListeningIndex, ListeningId, MeterSerial, ListeningDate) values (%s,%s,%s,%s)"
-        query1 = "select *from listeningvalues where ListeningID = %s"
+        query1 = "select ParameterID, Value from listeningvalues where ListeningID = %s"
         tuple = ('00095745-04BE-4A0F-80C1-EFB37F99B642',)
 
         values = [(0, '76758F7B-B047-4827-3FDD-AD3DF3529424', '5360F440-E660-4385-8g', '2021-11-10 17:15:00')]
@@ -52,15 +53,18 @@ def GetData():
 
         data1 = cursor.fetchall()
 
-        #for vr in data1:
-        #    print(vr)
+        dataArr = []
+
+        for vr in data1:
+            dataArr1 = [vr[0], vr[1]]
+            dataArr.append(dataArr1)
 
         ## to make final output we have to run the 'commit()' method of the database object
         db.commit()
 
         #print(cursor.rowcount, "records inserted")
 
-        return data1
+        return dataArr
 
     except Exception as e:
         print(e)
