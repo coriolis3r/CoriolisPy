@@ -68,3 +68,6 @@ def GetData():
 
     except Exception as e:
         print(e)
+
+def TestMult():
+    return ['a',15.251]
