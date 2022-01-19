@@ -4,7 +4,6 @@ import json
 import mysql.connector
 import numpy as np
 
-
 def MainWork(mainPath):
 
     URLArr = []
@@ -59,15 +58,74 @@ def GetData():
             dataArr1 = [vr[0], vr[1]]
             dataArr.append(dataArr1)
 
-        ## to make final output we have to run the 'commit()' method of the database object
         db.commit()
-
-        #print(cursor.rowcount, "records inserted")
 
         return dataArr
 
     except Exception as e:
         print(e)
 
+def GetDataSP(mainPath):
+    try:
+        dbData = []
+        csPath = mainPath + '/CloudService.log'
+
+        logging.basicConfig(filename=csPath, level=logging.INFO)
+
+        ConfigConnection = mainPath + '/ConfigFiles/'
+
+        with open(ConfigConnection + 'DBConnection.json') as f:
+            ConnData = json.loads(f.read())
+
+        db = mysql.connector.connect(
+            host=ConnData[0]["host"],
+            user=ConnData[0]["user"],
+            password=ConnData[0]["password"],
+            database=ConnData[0]["database"]
+        )
+
+        cursor = db.cursor()
+
+        args = [1, '2021-09-23', ]
+
+        cursor.callproc('GeneralTrendData', args)
+
+        data = []
+
+        for result in cursor.stored_results():
+            data.append(result.fetchall())
+
+        data1 = data[0]
+        data2 = data[1]
+
+        dspr = np.array(data1)
+        dspr1 = np.array(data2)
+
+        db.commit()
+
+        return (dspr,dspr1)
+
+    except Exception as e:
+        print(e)
+
 def TestMult():
-    return ['a',15.251]
+    a=[(1,2.5),(3,4.2)]
+    b=np.array(a)
+    return b
+
+def returnmultiple():
+    return (['a','b','c'],([(1,2),(2,3)],True))
+
+def retTuple():
+    return ([[1,2,5.5],[3,4,3.6]],[[5,6],[7,8]])
+
+def passdict(keys,values):
+    adict=dict(zip(keys,values))
+    return (list(adict.keys()),list(adict.values()))
+
+def editlist(alist,anum,astr,nestedlist):
+    alist.append(5)
+    anum += 1
+    astr += 'Python'
+    nestedlist[0].append(5)
+    return

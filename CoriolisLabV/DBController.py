@@ -26,23 +26,33 @@ try:
     #data = cursor.executemany(query, values)
     #cursor.executemany(query2)
 
-    data1 = cursor.fetchall()
+    #data1 = cursor.fetchall()
 
     data = []
-    print("Printing laptop details")
+
     for result in cursor.stored_results():
         data.append(result.fetchall())
 
 
+    data1 = []
+    data1 = data[0]
+    ds = len(data1)
 
-    arrL = np.asarray(data)
+    dspr = np.array(data1)
 
-    tdL = []
-    j = 0
-    for dl in data:
-        tdL.append(data[0][j])
-        j +=1
+    dt2 = []
 
+    dt2.append(data1[0])
+
+    dsp1 = []
+
+    k = 0
+    while k < ds:
+        dsp1.append(data1[k])
+        k += 1
+
+    print(data)
+    print(len(data))
 
 
     #dataArr = []
