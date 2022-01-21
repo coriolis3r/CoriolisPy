@@ -1,12 +1,28 @@
 import mysql.connector
 import numpy as np
+import logging
+import json
 
 try:
+
+    mainPath = './'
+    # mainPath = '/root/Keepyware/'
+    csPath = mainPath + 'CloudService.log'
+
+    logging.basicConfig(filename=csPath,level=logging.INFO)
+
+    ConfigConnection = mainPath + '/ConfigFiles/'
+
+    with open(ConfigConnection + 'DBConnection.json') as f:
+        ConnData = json.loads(f.read())
+
+    dbcHost = ConnData[0]["host"]
+
     db = mysql.connector.connect(
-      host="localhost",
-      user="root",
-      password="Admin.15zz,",
-      database = "coriolisdb"
+      host=ConnData[0]["host"],
+      user=ConnData[0]["user"],
+      password=ConnData[0]["password"],
+      database = ConnData[0]["database"]
     )
 
     cursor = db.cursor()
