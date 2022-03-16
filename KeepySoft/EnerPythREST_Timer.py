@@ -4,18 +4,17 @@ from DataProcessCloud import *
 from SendDataREST import *
 from datetime import datetime
 import json
-import RPi.GPIO as GPIO
+#import RPi.GPIO as GPIO
 
 try:
+    #GPIO.setmode(GPIO.BCM)
+    #GPIO.setwarnings(False)
+    #GPIO.setup(27, GPIO.OUT)
 
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setwarnings(False)
-    GPIO.setup(27, GPIO.OUT)
+    #GPIO.output(27, GPIO.LOW)
 
-    GPIO.output(27, GPIO.LOW)
-
-    mainPath = '/home/pi/KeepywareP/'
-    #mainPath = './'
+    #mainPath = '/home/pi/KeepywareP/'
+    mainPath = './'
     # mainPath = '/root/Keepyware/'
     csPath = mainPath + 'CloudService.log'
 
@@ -26,16 +25,6 @@ try:
     logging.info("Started... %s" %(datetime.today()))
 
     ConfigFilesPath = mainPath + 'ConfigFiles/'
-
-    # Get URL and  folders path
-    logging.info("Loading URL and  folders path... %s" % (datetime.today()))
-    with open(ConfigFilesPath + 'URLs.json') as f:
-        URLs = json.loads(f.read())
-
-    urlLB = URLs[0]["urlLB"]
-    urlMO = URLs[0]["urlMO"]
-    urlLF = URLs[0]["urlLF"]
-
     MBMetersFiles = mainPath + 'MB_Meters/'
     JsonPath = mainPath + 'JsonFiles/'
     ZipPath = mainPath + 'ZipFiles/'
@@ -43,6 +32,15 @@ try:
     JsonMeters = []
     prName = 'Meter1'
     acName = 'Meter2'
+
+    # Get URL and  folders path
+    logging.info("Loading URLs... %s" % (datetime.today()))
+    with open(ConfigFilesPath + 'URLs.json') as f:
+        URLs = json.loads(f.read())
+
+    urlLB = URLs[0]["urlLB"]
+    urlMO = URLs[0]["urlMO"]
+    urlLF = URLs[0]["urlLF"]
 
     # Get serial port configuration
     logging.info("Loading Serial Configuration... %s" %(datetime.today()))
@@ -64,7 +62,17 @@ try:
                      JsonMeters.append(json.loads(f.read()))
              prName = acName
 
-    time.sleep(max(0, 60-(time.time() % 60)))
+    # Get URL for FTP files
+    logging.info("Loading FTP data... %s" % (datetime.today()))
+    with open(ConfigFilesPath + 'FTP_access.json') as f:
+        FTP_access = json.loads(f.read())
+
+    #Init class CloudProcess
+    sdr = CloudProcess(urlLB, urlMO, urlLF, JsonPath, ZipPath, FTP_access)
+    #init class ReadAllMeters
+    mbp = DataProcessCloud()
+
+    #time.sleep(max(0, 60-(time.time() % 60)))
 
     #Main Process
     logging.info("Running main process... %s" %(datetime.today()))
@@ -75,19 +83,17 @@ try:
 
             dt = datetime.today()
 
-            mbp = DataProcessCloud()
-            sdr = CloudProcess(urlLB, urlMO, urlLF, JsonPath, ZipPath)
+            #mlv = mbp.ReadAllMeters(SerialPort, MeterConfig, JsonMeters)
 
-            mlv = mbp.ReadAllMeters(SerialPort, MeterConfig, JsonMeters)
+            #if mlv:
+            #    sdr.SendDataCloud(mlv)
 
-            if mlv:
-                sdr.SendDataCloud(mlv)
-
-            if(dt.minute % 30) == 0:
+            if(dt.minute % 1) == 0:
                 sdr.CreateZipFiles()
                 sdr.SendZipFiles()
     
-            time.sleep(max(0, 60-(time.time() % 60)))
+            #time.sleep(max(0, 60-(time.time() % 60)))
+            logging.info("all files have been uploaded: %s, %s" % (e, datetime.today()))
 
         except Exception as e:
             logging.info("General error: %s, %s" %(e, datetime.today()))

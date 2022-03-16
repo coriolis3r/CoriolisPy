@@ -4,6 +4,7 @@ import logging
 import os
 import uuid
 import zipfile
+import ftplib
 from os.path import basename
 from datetime import datetime
 
@@ -14,7 +15,7 @@ class DateTimeEncoder(json.JSONEncoder):
         return json.JSONEncoder.default(self, o)
 
 class CloudProcess(object):
-    def __init__(self, urlLB, urlMO, urlLF, JsonPath, ZipPath):
+    def __init__(self, urlLB, urlMO, urlLF, JsonPath, ZipPath, FTP_access):
         self.urlLB = urlLB
         self.urlMO = urlMO
         self.urlLF = urlLF
@@ -22,6 +23,10 @@ class CloudProcess(object):
         self.Timestamp = str(int(datetime.today().timestamp()))
         self.JsonPath = JsonPath
         self.ZipPath = ZipPath
+        self.FTP_URL = FTP_access[0]["FTP_URL"]
+        self.FTP_login = FTP_access[0]["login"]
+        self.FTP_password = FTP_access[0]["password"]
+        self.FTP_file_name = FTP_access[0]["file_name"]
 
     def CreateJson(self,ArrayOfMeterListening):
         try:
@@ -69,7 +74,6 @@ class CloudProcess(object):
 
     def SendZipFiles(self):
         try:
-
             cntTry = 0
 
             while cntTry < 5:
@@ -80,6 +84,7 @@ class CloudProcess(object):
                     for lz in lzf:
                         f = {'file': open(self.ZipPath + lz, 'rb')}
                         r = requests.post(self.urlLF, files = f)
+                        f.clear()
                         f = None
                         if r.status_code == 200:
                             os.remove(self.ZipPath + lz)
@@ -90,3 +95,20 @@ class CloudProcess(object):
 
         except Exception as e:
             logging.info("Error SendZipFiles: %s, %s" %(e,datetime.today()))
+
+    def Send_FTP(self):
+        try:
+            filename = "NetworkConfig.zip"
+
+            ftp = ftplib.FTP(self.FTP_URL)
+            ftp.login(self.FTP_login, self.FTP_password)
+            ftp.cwd(self.FTP_file_name)
+
+            # ftp.retrbinary("RETR " + filename, open(filename, 'wb').write)
+
+            # uploadfile= open('/etc/wpa_supplicant/wpa_supplicant.conf', 'rb')
+            uploadfile = open('C:/Users/RENE/Documents/DeleteduplicatedValues.zip', 'rb')
+
+            ftp.storbinary('STOR ' + filename, uploadfile)
+        except Exception as e:
+            logging.info("Error SendingFTPFiles: %s, %s" % (e, datetime.today()))

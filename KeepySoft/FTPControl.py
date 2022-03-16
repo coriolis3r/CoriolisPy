@@ -1,6 +1,4 @@
 import ftplib
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
 
 try:
     filename= "NetworkConfig.zip"
