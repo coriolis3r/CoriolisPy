@@ -4,24 +4,27 @@ from DataProcessCloud import *
 from SendDataREST import *
 from datetime import datetime
 import json
-#import RPi.GPIO as GPIO
+import RPi.GPIO as GPIO
 
 try:
-    #GPIO.setmode(GPIO.BCM)
-    #GPIO.setwarnings(False)
-    #GPIO.setup(27, GPIO.OUT)
 
-    #GPIO.output(27, GPIO.LOW)
+    cntEnvData = 0
 
-    #mainPath = '/home/pi/KeepywareP/'
-    mainPath = './'
-    # mainPath = '/root/Keepyware/'
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setwarnings(False)
+    GPIO.setup(27, GPIO.OUT)
+
+    GPIO.output(27, GPIO.LOW)
+
+    mainPath = '/home/pi/Keepyware/'
+    #mainPath = './'
+    #mainPath = '/root/Keepyware/'
     csPath = mainPath + 'CloudService.log'
 
     logging.basicConfig(filename=csPath,level=logging.INFO)
 
     logging.info("Starting... %s" %(datetime.today()))
-    #time.sleep(max(0, 60-(time.time() % 60)))
+    time.sleep(max(0, 60-(time.time() % 60)))
     logging.info("Started... %s" %(datetime.today()))
 
     ConfigFilesPath = mainPath + 'ConfigFiles/'
@@ -72,10 +75,16 @@ try:
     #init class ReadAllMeters
     mbp = DataProcessCloud()
 
-    #time.sleep(max(0, 60-(time.time() % 60)))
+    time.sleep(max(0, 60-(time.time() % 60)))
 
     #Main Process
     logging.info("Running main process... %s" %(datetime.today()))
+
+    #Try send ZIP data to DB
+    try:
+        sdr.SendZipFiles()
+    except Exception as e:
+        logging.info("Error sending initial ZIP files to server: %s, %s" % (e, datetime.today()))
 
     while True:
         try:
@@ -83,17 +92,21 @@ try:
 
             dt = datetime.today()
 
-            #mlv = mbp.ReadAllMeters(SerialPort, MeterConfig, JsonMeters)
+            mlv = mbp.ReadAllMeters(SerialPort, MeterConfig, JsonMeters)
 
-            #if mlv:
-            #    sdr.SendDataCloud(mlv)
+            if mlv:
+                sdr.SendDataCloud(mlv)
 
-            if(dt.minute % 1) == 0:
+            if (dt.minute % 1) == 0:
+                cntEnvData += 1
+
+            if (cntEnvData > 30):
                 sdr.CreateZipFiles()
                 sdr.SendZipFiles()
-    
-            #time.sleep(max(0, 60-(time.time() % 60)))
-            logging.info("all files have been uploaded: %s, %s" % (e, datetime.today()))
+                cntEnvData = 0
+
+            time.sleep(max(0, 60-(time.time() % 60)))
+
 
         except Exception as e:
             logging.info("General error: %s, %s" %(e, datetime.today()))

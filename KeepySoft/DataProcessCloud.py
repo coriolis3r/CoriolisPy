@@ -109,7 +109,7 @@ class ReadData(object):
                             MetList["ListeningID"] = str(uuid.uuid4())
                             MetList["MeterSerial"] = mc["DeviceIdGuid"]
                             MetList["ListeningDate"] = str(self.dt)
-                            MetList["listeningValue"] = ArrLV
+                            MetList["ListeningValue"] = ArrLV
                             dataReaded.append(MetList)
 
                 if client is not None:
