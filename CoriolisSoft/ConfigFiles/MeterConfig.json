@@ -13,7 +13,7 @@
       "MeasurRange": [
         {
           "MeasurTypeId": 1,
-          "SampleTime": 1,
+          "SampleTime": 5,
           "Calculated": false,
           "Range": "57,108;129,134"
         }
@@ -34,7 +34,7 @@
       "MeasurRange": [
         {
           "MeasurTypeId": 1,
-          "SampleTime": 1,
+          "SampleTime": 5,
           "Calculated": false,
           "Range": "57,108;129,134"
         }
@@ -55,7 +55,7 @@
       "MeasurRange": [
         {
           "MeasurTypeId": 1,
-          "SampleTime": 1,
+          "SampleTime": 5,
           "Calculated": false,
           "Range": "57,108;129,134"
         }

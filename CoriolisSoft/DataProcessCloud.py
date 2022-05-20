@@ -106,10 +106,10 @@ class ReadData(object):
 
                     if ArrLV:
                         if len(ArrLV) > 0:
-                            MetList["ListeningId"] = 0
+                            MetList["id"] = 0
                             MetList["MeterId"] = mc["MeterId"]
-                            MetList["Timestamp"] = self.Timestamp
-                            MetList["listeningvalues"] = ArrLV
+                            MetList["ListeningDate"] = str(self.dt)
+                            MetList["ListeningValue"] = ArrLV
                             dataReaded.append(MetList)
 
                 if client is not None:
@@ -186,10 +186,10 @@ class ReadData(object):
 
                     if ArrLV:
                         if len(ArrLV) > 0:
-                            MetList["ListeningId"] = 0
+                            MetList["id"] = 0
                             MetList["MeterId"] = mc["MeterId"]
-                            MetList["Timestamp"] = self.Timestamp
-                            MetList["listeningvalues"] = ArrLV
+                            MetList["ListeningDate"] = str(self.dt)
+                            MetList["ListeningValue"] = ArrLV
                             dataReaded.append(MetList)
 
             return dataReaded
@@ -230,66 +230,66 @@ class DataF():
                                 break
                             j = j + 1
                         if status and ind >= 0:
-                            lv = self.sdm.ListeningValues(null, null, null)
+                            lv = self.sdm.ListeningValue(null, null, null)
                             if l["DataTypeId"] == 1:  # ushort
-                                lv["ListeningId"] = 0
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["id"] = 0
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = MBDataRegs[i] * l["Multiplier"]
                                 MBList.append(lv)
                                 index = index + 1
                                 i = i + 1
                             elif l["DataTypeId"] == 2:  # float
                                 tup = (MBDataRegs[i], MBDataRegs[i + 1])
-                                lv["ListeningId"] = 0
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["id"] = 0
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = unpack('>f', pack('>HH', tup[0], tup[1]))[0] * l["Multiplier"]
                                 MBList.append(lv)
                                 index = index + 2
                                 i = i + 2
                             elif l["DataTypeId"] == 3:  # uint
                                 tup = (MBDataRegs[i], MBDataRegs[i + 1])
-                                lv["ListeningId"] = 0
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["id"] = 0
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = unpack('>I', pack('>HH', tup[0], tup[1]))[0] * l["Multiplier"]
                                 MBList.append(lv)
                                 index = index + 2
                                 i = i + 2
                             elif l["DataTypeId"] == 4:  # int
                                 tup = (MBDataRegs[i], MBDataRegs[i + 1])
-                                lv["ListeningId"] = 0
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["id"] = 0
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = unpack('>i', pack('>HH', tup[0], tup[1]))[0] * l["Multiplier"]
                                 MBList.append(lv)
                                 index = index + 2
                                 i = i + 2
                             elif l["DataTypeId"] == 5:  # ulong
-                                lv["ListeningId"] = 0
+                                lv["id"] = 0
                                 tup = (MBDataRegs[i], MBDataRegs[i + 1], MBDataRegs[i + 2], MBDataRegs[i + 3])
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = unpack('>Q', pack('>HHHH', tup[0], tup[1], tup[2], tup[3]))[0] * l[
                                     "Multiplier"]
                                 MBList.append(lv)
                                 index = index + 4
                                 i = i + 4
                             elif l["DataTypeId"] == 7:  # MOD10
-                                lv["ListeningId"] = 0
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["id"] = 0
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = MBDataRegs[i + 3] * 10E11 + MBDataRegs[i + 2] * 10E7 + MBDataRegs[
                                     i + 1] * 10E3 + MBDataRegs[i]
                                 MBList.append(lv)
                                 index = index + 4
                                 i = i + 4
                             elif l["DataTypeId"] == 8:  # Agreagate GWh + KWh
-                                lv["ListeningId"] = 0
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["id"] = 0
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = MBDataRegs[i + 1] * 1E-6 + MBDataRegs[i] * 1E-3
                                 MBList.append(lv)
                                 index = index + 2
                                 i = i + 2
                             elif l["DataTypeId"] == 9:  # double
-                                lv["ListeningId"] = 0
+                                lv["id"] = 0
                                 tup = (MBDataRegs[i], MBDataRegs[i + 1], MBDataRegs[i + 2], MBDataRegs[i + 3])
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = unpack('>d', pack('>HHHH', tup[0], tup[1], tup[2], tup[3]))[0] * l[
                                     "Multiplier"]
                                 MBList.append(lv)
@@ -298,8 +298,8 @@ class DataF():
                             elif l["DataTypeId"] == 10:  # special for PAC3200 SIEMENS
                                 tup = (MBDataRegs[i], MBDataRegs[i + 1], MBDataRegs[i + 2], MBDataRegs[i + 3])
                                 tup1 = (MBDataRegs[i + 4], MBDataRegs[i + 5], MBDataRegs[i + 6], MBDataRegs[i + 7])
-                                lv["ListeningId"] = 0
-                                lv["ParameterID"] = l["ParameterID"]
+                                lv["id"] = 0
+                                lv["ParameterId"] = l["ParameterID"]
                                 lv["Value"] = ((unpack('>d', pack('>HHHH', tup[0], tup[1], tup[2], tup[3]))[0]) + (
                                     unpack('>d', pack('>HHHH', tup1[0], tup1[1], tup1[2], tup1[3]))[0])) * l[
                                                   "Multiplier"]

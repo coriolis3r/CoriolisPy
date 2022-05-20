@@ -14,7 +14,7 @@ try:
     logging.basicConfig(filename=csPath,level=logging.INFO)
 
     logging.info("Starting... %s" %(datetime.today()))
-    #time.sleep(max(0, 60-(time.time() % 60)))
+    time.sleep(max(0, 60-(time.time() % 60)))
     logging.info("Started... %s" %(datetime.today()))
 
     ConfigFilesPath = mainPath + 'ConfigFiles/'

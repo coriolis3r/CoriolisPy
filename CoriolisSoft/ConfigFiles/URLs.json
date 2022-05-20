@@ -1,8 +1,8 @@
 [
   {
-    "urlLB" : "https://localhost:44335/api/ProcessData/PostMeterListeningL",
+    "urlLB" : "http://localhost:8000/api/MeterListening",
     "urlMO" : "http://demo.keepener.com/api/MeterOperation",
-    "urlLF" : "http://localhost:26753/api/ListeningFile",
+    "urlLF" : "http://localhost:8000/api/MeterListeningF",
     "urlFTP": "ftp://ftp.smarterasp.net/site12/ftpTest/"
   }
 ]

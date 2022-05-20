@@ -4,27 +4,27 @@ from DataProcessCloud import *
 from SendDataREST import *
 from datetime import datetime
 import json
-import RPi.GPIO as GPIO
+#import RPi.GPIO as GPIO
 
 try:
 
     cntEnvData = 0
 
-    GPIO.setmode(GPIO.BCM)
-    GPIO.setwarnings(False)
-    GPIO.setup(27, GPIO.OUT)
+    #GPIO.setmode(GPIO.BCM)
+    #GPIO.setwarnings(False)
+    #GPIO.setup(27, GPIO.OUT)
 
-    GPIO.output(27, GPIO.LOW)
+    #GPIO.output(27, GPIO.LOW)
 
-    mainPath = '/home/pi/Keepyware/'
-    #mainPath = './'
+    #mainPath = '/home/pi/Keepyware/'
+    mainPath = './'
     #mainPath = '/root/Keepyware/'
     csPath = mainPath + 'CloudService.log'
 
     logging.basicConfig(filename=csPath,level=logging.INFO)
 
     logging.info("Starting... %s" %(datetime.today()))
-    time.sleep(max(0, 60-(time.time() % 60)))
+    #time.sleep(max(0, 60-(time.time() % 60)))
     logging.info("Started... %s" %(datetime.today()))
 
     ConfigFilesPath = mainPath + 'ConfigFiles/'
@@ -75,7 +75,7 @@ try:
     #init class ReadAllMeters
     mbp = DataProcessCloud()
 
-    time.sleep(max(0, 60-(time.time() % 60)))
+    #time.sleep(max(0, 60-(time.time() % 60)))
 
     #Main Process
     logging.info("Running main process... %s" %(datetime.today()))

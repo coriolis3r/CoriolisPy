@@ -35,7 +35,7 @@ def GetData():
             host="localhost",
             user="root",
             password="Admin.15zz,",
-            database="keepylite"
+            database="CoriolisDB"
         )
 
         cursor = db.cursor()

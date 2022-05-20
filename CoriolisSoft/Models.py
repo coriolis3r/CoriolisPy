@@ -3,10 +3,10 @@ class SaveDataModel(object):
         self.null = None
 
     def MeterListening(self, lId, mID, tst, lvArr):
-        return {"ListeningId": lId, "MeterId": mID, "Timestamp": tst, "listeningvalues": lvArr}
+        return {"id": lId, "MeterId": mID, "ListeningDate": tst, "ListeningValue": lvArr}
 
-    def ListeningValues(self, ListeningId, ParameterID, Value):
-        return {"ListeningId": ListeningId, "ParameterID": ParameterID, "Value": Value}
+    def ListeningValue(self, lid, pid, Value):
+        return {"id": lid, "ParameterId": pid, "Value": Value}
 
     def ArrayOfEnergyMeter(self,mle):
         return {"Meters":mle}

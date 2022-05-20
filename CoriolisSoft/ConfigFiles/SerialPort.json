@@ -1,5 +1,5 @@
 {
-  "Port": "COM7",
+  "Port": "COM4",
   "BaudRate": 9600,
   "Parity": "None"
 }
