@@ -81,12 +81,13 @@ def GetDataSP(mainPath):
             host=ConnData[0]["host"],
             user=ConnData[0]["user"],
             password=ConnData[0]["password"],
-            database=ConnData[0]["database"]
+            database=ConnData[0]["database"],
+            port=ConnData[0]["port"]
         )
 
         cursor = db.cursor()
 
-        args = [1, '2021-09-23', ]
+        args = [1, '2022-05-16', 3, ]
 
         cursor.callproc('GeneralTrendData', args)
 

@@ -22,7 +22,7 @@ try:
       host=ConnData[0]["host"],
       user=ConnData[0]["user"],
       password=ConnData[0]["password"],
-      database = ConnData[0]["database"]
+      database=ConnData[0]["database"]
     )
 
     cursor = db.cursor()
@@ -34,9 +34,9 @@ try:
 
     values = [(0,'76758F7B-B047-4827-3FDD-AD3DF3529424','5360F440-E660-4385-8g','2021-11-10 17:15:00')]
 
-    args = [1,'2021-09-23',]
+    args = [1, '2022-05-16', 3, ]
 
-    cursor.callproc('GeneralTrendData',args)
+    cursor.callproc('GeneralTrendData', args)
 
     ## executing the query with values
     #data = cursor.executemany(query, values)

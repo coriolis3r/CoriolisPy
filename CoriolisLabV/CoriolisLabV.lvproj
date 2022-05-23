@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CoriolisEner.vi" Type="VI" URL="../CoriolisEner.vi"/>
 		<Item Name="CoriolisMain.vi" Type="VI" URL="../CoriolisMain.vi"/>
+		<Item Name="ElnetLoggin.vi" Type="VI" URL="../ElnetLoggin.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
